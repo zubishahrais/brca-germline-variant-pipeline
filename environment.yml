@@ -1,0 +1,16 @@
+name: brca-germline
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - fastqc
+  - bwa
+  - samtools
+  - bcftools
+  - tabix
+  - gatk4
+  - multiqc
+  - rtg-tools
+  - matplotlib

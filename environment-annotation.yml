@@ -1,0 +1,12 @@
+# SnpEff needs its own environment in this project (installed and run
+# separately from the main pipeline environment). Create with:
+#   conda env create -f environment-annotation.yml
+name: snpeff-env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - openjdk=21
+  - snpeff
+  - snpsift

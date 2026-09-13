@@ -1,0 +1,88 @@
+2026-09-04 11:56:46 serial = 27182818284
+2026-09-04 11:56:46 email = anon
+2026-09-04 11:56:46 RTG version = RTG Tools 3.10 / Core a61d0bf4ec (2018-10-29)
+2026-09-04 11:56:46 awt.toolkit = sun.awt.X11.XToolkit
+2026-09-04 11:56:46 file.encoding = UTF-8
+2026-09-04 11:56:46 file.separator = /
+2026-09-04 11:56:46 host.name = zubair
+2026-09-04 11:56:46 java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+2026-09-04 11:56:46 java.awt.printerjob = sun.print.PSPrinterJob
+2026-09-04 11:56:46 java.class.path = /home/zubishah/miniconda3/envs/brca-germline/share/rtg-tools-3.10-0/RTG.jar
+2026-09-04 11:56:46 java.class.version = 55.0
+2026-09-04 11:56:46 java.home = /home/zubishah/miniconda3/envs/brca-germline
+2026-09-04 11:56:46 java.io.tmpdir = /tmp
+2026-09-04 11:56:46 java.library.path = /home/zubishah/miniconda3/envs/brca-germline/share/rtg-tools-3.10-0
+2026-09-04 11:56:46 java.runtime.name = OpenJDK Runtime Environment
+2026-09-04 11:56:46 java.runtime.version = 11.0.1+13-LTS
+2026-09-04 11:56:46 java.specification.name = Java Platform API Specification
+2026-09-04 11:56:46 java.specification.vendor = Oracle Corporation
+2026-09-04 11:56:46 java.specification.version = 11
+2026-09-04 11:56:46 java.vendor = Azul Systems, Inc.
+2026-09-04 11:56:46 java.vendor.url = http://www.azulsystems.com/
+2026-09-04 11:56:46 java.vendor.url.bug = http://www.azulsystems.com/support/
+2026-09-04 11:56:46 java.vendor.version = Zulu11.2+3
+2026-09-04 11:56:46 java.version = 11.0.1
+2026-09-04 11:56:46 java.version.date = 2018-10-16
+2026-09-04 11:56:46 java.vm.compressedOopsMode = Zero based
+2026-09-04 11:56:46 java.vm.info = mixed mode
+2026-09-04 11:56:46 java.vm.name = OpenJDK 64-Bit Server VM
+2026-09-04 11:56:46 java.vm.specification.name = Java Virtual Machine Specification
+2026-09-04 11:56:46 java.vm.specification.vendor = Oracle Corporation
+2026-09-04 11:56:46 java.vm.specification.version = 11
+2026-09-04 11:56:46 java.vm.vendor = Azul Systems, Inc.
+2026-09-04 11:56:46 java.vm.version = 11.0.1+13-LTS
+2026-09-04 11:56:46 jdk.debug = release
+2026-09-04 11:56:46 lang.version = 11.0.1
+2026-09-04 11:56:46 line.separator = 
+
+2026-09-04 11:56:46 models.dir = /home/zubishah/miniconda3/envs/brca-germline/share/rtg-tools-3.10-0/models
+2026-09-04 11:56:46 nashorn.option.no.deprecation.warning = true
+2026-09-04 11:56:46 os.arch = amd64
+2026-09-04 11:56:46 os.freememory = 3185688576
+2026-09-04 11:56:46 os.name = Linux
+2026-09-04 11:56:46 os.totalmemory = 8465063936
+2026-09-04 11:56:46 os.version = 4.4.0-18362-Microsoft
+2026-09-04 11:56:46 path.separator = :
+2026-09-04 11:56:46 processor.arch = amd64
+2026-09-04 11:56:46 processor.count = 4
+2026-09-04 11:56:46 references.dir = /home/zubishah/miniconda3/envs/brca-germline/share/rtg-tools-3.10-0/references
+2026-09-04 11:56:46 runtime.freememory = 124946112
+2026-09-04 11:56:46 runtime.maxmemory = 7618953216
+2026-09-04 11:56:46 runtime.totalMemory = 134217728
+2026-09-04 11:56:46 sun.arch.data.model = 64
+2026-09-04 11:56:46 sun.boot.library.path = /home/zubishah/miniconda3/envs/brca-germline/lib
+2026-09-04 11:56:46 sun.cpu.endian = little
+2026-09-04 11:56:46 sun.cpu.isalist = 
+2026-09-04 11:56:46 sun.io.unicode.encoding = UnicodeLittle
+2026-09-04 11:56:46 sun.java.command = /home/zubishah/miniconda3/envs/brca-germline/share/rtg-tools-3.10-0/RTG.jar vcfeval -b data/truth/giab_truth_chr13_chr17.vcf.gz -c results/variants/NA12878.pass.vcf.gz -e data/truth/giab_confident_regions.bed --bed-regions data/regions/BRCA_panel_GRCh38.bed -t data/reference/chr13_chr17.sdf -o results/benchmark/NA12878_vcfeval
+2026-09-04 11:56:46 sun.java.launcher = SUN_STANDARD
+2026-09-04 11:56:46 sun.jnu.encoding = UTF-8
+2026-09-04 11:56:46 sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2026-09-04 11:56:46 sun.os.patch.level = unknown
+2026-09-04 11:56:46 talkback = true
+2026-09-04 11:56:46 usage = false
+2026-09-04 11:56:46 user.dir = /home/zubishah/BRCA_Germline_Variant_Project
+2026-09-04 11:56:46 user.home = /home/zubishah
+2026-09-04 11:56:46 user.language = en
+2026-09-04 11:56:46 user.name = zubishah
+2026-09-04 11:56:46 user.timezone = Etc/UTC
+2026-09-04 11:56:46 vendor = Azul Systems, Inc.
+2026-09-04 11:56:46 gzipfix.enabled = true
+2026-09-04 11:56:46 Command line arguments: rtg vcfeval -b data/truth/giab_truth_chr13_chr17.vcf.gz -c results/variants/NA12878.pass.vcf.gz -e data/truth/giab_confident_regions.bed --bed-regions data/regions/BRCA_panel_GRCh38.bed -t data/reference/chr13_chr17.sdf -o results/benchmark/NA12878_vcfeval
+2026-09-04 11:56:46 Run Id: 47a22a76-d8b7-47ed-91a3-1ff69dec4d8f
+2026-09-04 11:56:46 Referenced SDF-ID: 8df49d6c-1c81-4d66-bbcc-acfb640e6426 Type: DNA Sequences: 2 Max-Length: 114364328 Min-Length: 83257441 Arm: UNKNOWN
+2026-09-04 11:56:48 Reference chr17 baseline contains 254 variants.
+2026-09-04 11:56:48 Reference chr17 calls contains 330 variants.
+2026-09-04 11:56:48 Reference chr13 baseline contains 127 variants.
+2026-09-04 11:56:48 Reference chr13 calls contains 138 variants.
+2026-09-04 11:56:50 Reference chr17 had maximum path complexity of 40 at chr17:43077743-43077755
+2026-09-04 11:56:50 Reference chr13 had maximum path complexity of 15 at chr13:32353467-32353471
+2026-09-04 11:56:50 Fraction of calls outside evaluation regions: 0.2023 (89/440)
+2026-09-04 11:56:50 Representation bias correction factor for SNP 291/291.0 = 1.0
+2026-09-04 11:56:50 Representation bias correction factor for NON_SNP 59/59.0 = 1.0
+2026-09-04 11:56:50 Threshold  True-pos-baseline  True-pos-call  False-pos  False-neg  Precision  Sensitivity  F-measure
+----------------------------------------------------------------------------------------------------
+   18.000                350            350          1          2     0.9972       0.9943     0.9957
+     None                350            350          1          2     0.9972       0.9943     0.9957
+
+2026-09-04 11:56:51 Finished successfully in 4 s.

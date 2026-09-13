@@ -1,0 +1,42 @@
+# Reference genome and its indexes (large, easily re-downloaded via scripts/01_prepare_reference.sh)
+data/reference/*.fa
+data/reference/*.fa.gz
+data/reference/*.fai
+data/reference/*.dict
+data/reference/*.bwt
+data/reference/*.pac
+data/reference/*.ann
+data/reference/*.amb
+data/reference/*.sa
+data/reference/*.sdf/
+
+# Known-sites and truth-set VCFs (large, re-fetchable via scripts)
+data/known_sites/*.vcf.gz
+data/known_sites/*.vcf.gz.tbi
+data/truth/*.vcf.gz
+data/truth/*.vcf.gz.tbi
+data/truth/*.bed
+
+# Raw and intermediate sequencing/alignment files
+data/raw/*.fastq.gz
+results/alignment/*.bam
+results/alignment/*.bai
+results/alignment/*.sam
+
+# Large intermediate variant files (keep only the final PASS/annotated VCFs + TSV summaries)
+results/variants/*.g.vcf.gz
+results/variants/*.g.vcf.gz.tbi
+results/variants/*.snps.vcf.gz*
+results/variants/*.indels.vcf.gz*
+results/variants/*.snps.filtered.vcf.gz*
+results/variants/*.indels.filtered.vcf.gz*
+
+# QC reports (large, regenerable via scripts/03_qc.sh)
+results/qc/fastqc/*.zip
+
+# Logs
+logs/*.log
+
+# OS/editor cruft
+.DS_Store
+*.swp
