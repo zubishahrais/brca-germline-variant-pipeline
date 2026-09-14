@@ -117,7 +117,7 @@ All 6 missense variants were individually verified against ClinVar:
 
 ![Variant effect breakdown](results/figures/variant_effect_breakdown.png)
 
-*Figure: predicted functional effect of all 470 PASS variants across BRCA1, BRCA2, and TP53, as classified by SnpEff. The large intronic/intergenic fraction reflects normal gene architecture (most of any gene's sequence is non-coding); the 6 missense and 7 synonymous variants are the coding changes relevant to interpretation.*
+*Figure: predicted functional effect of the 468 PASS variants within the final target coordinates across BRCA1, BRCA2, and TP53, as classified by SnpEff. Although 470 variants passed GATK hard-filtering, two PASS calls fall outside the effective target coordinates and are not represented in the final annotated set. The large intronic/intergenic fraction reflects normal gene architecture (most of any gene's sequence is non-coding); the 6 missense and 7 synonymous variants are the coding changes relevant to interpretation.*
 
 | Gene | Protein change | dbSNP | ClinVar status |
 |---|---|---|---|
@@ -128,7 +128,7 @@ All 6 missense variants were individually verified against ClinVar:
 | BRCA1 | p.Pro871Leu | rs799917 | Common polymorphism, not pathogenic |
 | BRCA2 | p.Val2466Ala | rs169547 | Benign |
 
-**All six variants are common, benign polymorphisms — no pathogenic variants were identified.** This is the expected and correct result: NA12878 is a healthy reference individual with no known hereditary cancer syndrome, so a clean negative finding here demonstrates the pipeline behaves correctly rather than indicating a limitation.
+**All six missense variants were classified by ClinVar as benign or common polymorphisms; no pathogenic variants were identified.** This is the expected and correct result: NA12878 is a healthy reference individual with no known hereditary cancer syndrome, so a clean negative finding here demonstrates the pipeline behaves correctly rather than indicating a limitation.
 
 ### Benchmarking (RTG `vcfeval` vs. GIAB HG001 v4.2.1)
 
@@ -143,9 +143,9 @@ Scored within GIAB's high-confidence regions, intersected with the three target 
 | **Sensitivity (Recall)** | **99.43%** |
 | **F1 score** | **99.57%** |
 
-Both false negatives occurred at sites GIAB's own multi-platform consensus process flagged as technically difficult (missing calls from IonExome/SOLiD platforms in GIAB's source metadata), indicating genuine sequencing/calling difficulty rather than a pipeline defect.
+Both false negatives were genuinely called by the pipeline but were subsequently removed by the GATK hard filter based on SOR (strand odds ratio). Thus, these two misses arose during post-calling filtering rather than from a failure to detect the variants during variant calling.
 
-The single false positive (chr17:43,164,525) passed all standard quality metrics (DP=40, MQ=60, QD=17.67, balanced allele depth) with no obvious artifact signature in the call itself. Querying the GIAB truth set directly at this position returned no variant record at all — meaning GIAB's high-confidence consensus call here is homozygous reference. The pipeline's heterozygous call at this site is therefore a genuine disagreement with GIAB's independent multi-platform consensus, rather than a low-quality or filterable artifact — its underlying cause (e.g. an alignment or technical signal specific to this dataset) was not further resolved within the scope of this project.
+The single false positive (chr17:43,164,525) passed all standard quality metrics (DP=38, MQ=60, QD=17.67, balanced allele depth) with no obvious artifact signature in the call itself. Querying the GIAB truth set directly at this position returned no variant record at all — meaning GIAB's high-confidence consensus call here is homozygous reference. The pipeline's heterozygous call at this site is therefore a genuine disagreement with GIAB's independent multi-platform consensus, rather than a low-quality or filterable artifact — its underlying cause (e.g. an alignment or technical signal specific to this dataset) was not further resolved within the scope of this project.
 
 ## Limitations
 
